@@ -19,6 +19,11 @@ config/name="Mario"
 run/main_scene="res://World1-1.tscn"
 config/icon="res://icon.png"
 
+[display]
+
+window/size/width=2000
+window/size/height=460
+
 [rendering]
 
 environment/default_environment="res://default_env.tres"
