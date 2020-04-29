@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://StageComplete.gd" type="Script" id=1]
+
+[sub_resource type="RectangleShape2D" id=8]
+extents = Vector2( 3.47437, 7.53836 )
+
+[node name="StageComplete" type="Area2D"]
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 0, 8 )
+shape = SubResource( 8 )
